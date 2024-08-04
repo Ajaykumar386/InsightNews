@@ -17,11 +17,11 @@ import nltk
 import joblib  # For saving models
 from tqdm import tqdm
 
-# Download necessary NLTK data
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
+# # Download necessary NLTK data
+# nltk.download('punkt')
+# nltk.download('stopwords')
+# nltk.download('wordnet')
+# nltk.download('averaged_perceptron_tagger')
 
 # Initialize NLP tools
 lemmatizer = WordNetLemmatizer()
