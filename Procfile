@@ -1,1 +1,1 @@
-web: gunicorn --workers=4 --timeout 600 --chdir src -b 0.0.0.0:$PORT app:app
+web: gunicorn --preload --timeout 120 --log-file - -b 0.0.0.0:$PORT src.app:app
